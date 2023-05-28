@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #212121;
+}
+.qr-page{
+    /* text-align: center; */
+    margin-left: 35%;
+    align-items: center;
+    color: white;
+
+    /* display: none; */
+}
+.qr-page img{
+    margin-top: 3%;
+    margin-left:10%;
+}
+.qr-page h1{
+    font-size: 33px;
+    margin-top: 25px;
+}
+.qr-page .block-p{
+    align-items: center;
+    /* text-align: center;  */
+    font-size: 17px;
+    margin-top: 25px;
+    margin-left: 7%;
+    gap: 5px;
+}
+.qr-page .block-p p{
+    margin-top: 10px;
+}
+.qr-page button{
+    margin-left: 9%;
+}
+
+.log-phone{
+    width: 270px;
+    /* font-weight: 600; */
+    font-size: 19px;
+    background-color: transparent;
+    border: none;
+    margin-top: 35px;
+    color: #551A84;
+    cursor: pointer;
+}
+.con-lan{
+    background-color: transparent;
+    /* font-weight: 600; */
+    font-size: 19px;
+    margin-left: 20px;
+    border: none;
+    margin-top: 25px;
+}
+
+/* Sign-In */
+
+.sign-in{
+    align-items: center;
+    text-align: center;
+    display: none;
+}
+.sign-in img{
+    width: 13%;
+    margin-top: 3%;
+}
+.sign-in h1{
+    font-size: 33px;
+    color: white;
+    margin-top: 20px;
+}
+.sign-in h2{
+    color: gray;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.sign-in input{
+    width: 300px;
+    height: 45px;
+    font-size: 17px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid gray;
+    padding-left: 1%;
+    color: white;
+    margin-top: 15px;
+}
+.sign-in select{
+    margin-top: 25px;
+    width: 300px;
+    height: 45px;
+    background: transparent;
+    padding: 1%;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.sign-in select:hover{
+    border: 1px solid blue;
+}
+.sign-in select option{
+    color: black;
+}
+.sign-in .keep-sign{
+    display: flex;
+    align-items: center;
+    margin-left: 39%;
+    margin-top: 20px;
+}
+.sign-in .keep-sign input{
+    width: 40px;
+    height: 20px;
+    border-radius: 5px;
+}
+.sign-in .keep-sign h3{
+    padding-top: 15px;
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.sign-in .sign-next{
+    display: table-column;
+    margin-top: 40px;
+}
+.sign-in .sign-next{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #8774E1;
+    background-color: #8774E1;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.sign-in a{
+    margin-top: 20px;
+}
+.log-phone1{
+    width: 270px;
+    /* font-weight: 600; */
+    font-size: 19px;
+    background-color: transparent;
+    border: none;
+    margin-top: 35px;
+}
+.con-lan1{
+    background-color: transparent;
+    /* font-weight: 600; */
+    font-size: 19px;
+    margin-left: 20px;
+    border: none;
+    margin-top: 25px;
+}
+.code-page{
+    text-align: center;
+    color: white;
+    display: none;
+}
+.code-page img{
+    width: 170px;
+    height: 150px;
+    margin-top: 90px;
+}
+.code-page h1{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.code-page h2{
+    font-size: 17px;
+    color: gray;
+    margin-top: 20px;
+}
+.code-page input{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 1%;
+    background: transparent;
+    font-size: 20px;
+    border: 1px solid gray;
+    margin-top: 25px;
+    color: white;
+}
+.code-page input:hover{
+    border: 1px solid rgb(111, 0, 255);
+}
+.code-page button{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #8774E1;
+    font-size: 20px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.code-page ion-icon{
+    font-size: 25px;
+    padding-top: 45px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.phone-icon{
+    align-items: center;
+    margin-left: 45%;
+    text-align: center;
+}
+.phone-icon{
+    display: flex;
+}
+
+
+
+
+
+
+/* Telegram */
+
+.container{
+    display: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgb(4, 4, 43);
+    justify-content: right;
+}
+.top ion-icon{
+    color: white;
+    font-size: 14px;
+    padding: 5% 8%;
+    font-weight: 900;
+}
+.top{
+    width: 10%;
+}
+.top ion-icon:hover{
+    background-color: rgb(18, 18, 75);
+}
+.top .close:hover{
+    background-color: red;
+}
+.three{
+    display: flex;
+}
+.blockOne{
+    width: 7%;
+    color: white;
+    background-color: rgb(0, 0, 41);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 95vh;
+}
+.one ion-icon{
+    font-size: 30px;
+    font-weight: 900;
+}
+.one{
+    margin: 2% 0;
+    padding: 15px 1%;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.one:hover{
+    background-color: rgb(5, 5, 112);
+}
+.blockTwo{
+    background-color: rgb(7, 7, 31);
+    color: white;
+    display: flex;
+    width: 23%;
+    flex-direction: column;
+}
+.blockTwo input{
+    margin: 2%;
+    width: 96%;
+    padding: 3% 5%;
+    font-size: 15px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background-color: rgba(4, 4, 41, 0.777);
+    color: white;
+}
+.blockTwo input::placeholder{
+    color: white;
+}
+.group{
+    padding: 5% 3%;
+    display: flex;
+    margin: 2% 0;
+}
+.group img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+.group .text{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.group:hover{
+    background-color: rgb(21, 21, 77);
+
+}
+
+.blockThree{
+    width: 70%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50vh;
+    background-color: rgb(21, 21, 77);
+    background-size: cover;
+}
+.textOne{
+    margin-top: 55px;
+    width: 40%;
+    margin-left: 58%;
+    background-color: rgb(0, 0, 36);
+    border-radius: 5px;
+    padding: 2%;
+}
+.Write{
+    margin-top: 8vh;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(1, 1, 19);
+}
+.Write input{
+    font-size: 20px;
+    width: 90%;
+    padding: 2% 5%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+}
+.attach{
+    transform: rotate(15deg);
+}
+.channalAll , .newsAll, .groupAll{
+    display: none;
+}
+
+.edit{
+    background: rgb(12, 1, 53);
+    width: 300px;
+    height: 350px;
+    color: white;
+    margin-left: 40%;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 0 0 4px 3px rgb(3, 47, 83);
+    position: absolute;
+    margin-top: -80vh;
+    display: none;
+}
+.edit p{
+    font-size: 25px;
+    text-align: center;
+}
+.edit .p{
+    color: orange;
+    margin-left: 45%;
+    /* margin-top: -8%; */
+    font-size: 45px;
+}
+.edit h5{
+    font-size: 10px;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.newsFolder , .newschannals, .newsChats, .newsOwner{
+    display: flex;
+    margin-top: 4%;
+    align-items: center;
+    width: 100%;
+    padding: 1% 2%;
+    justify-content: space-between;
+}
+.newsOwner ion-icon:hover{
+    color: red;
+    cursor: pointer;
+}
+.newsFolder ion-icon:hover{
+    color: red;
+    cursor: pointer;
+}
+.newschannals ion-icon:hover{
+    color: red;
+    cursor: pointer;
+}
+.newsChats ion-icon:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.newsFolder:hover, .newsChannals:hover, .newsChats:hover{
+    background-color: rgb(23, 3, 121);
+    color: white;
+}
+.trash1{
+    cursor: pointer;
+}
